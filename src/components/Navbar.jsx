@@ -66,7 +66,7 @@ const Navbar = () => {
             component="div"
             sx={{ flexGrow: 1, color: theme.palette.primary.white }}
           >
-            Ello Books
+            Eagles' Eye
           </Typography>
           {!isSmallScreen && (
             <>

@@ -2,13 +2,14 @@ import { createTheme } from "@mui/material/styles";
 
 const theme = createTheme({
   typography: {
-    fontFamily: "Mulish, Arial, sans-serif",
+    fontFamily: "Poppins, Arial, sans-serif",
   },
   palette: {
     primary: {
-      main: "#5ACCCC",
-      white: "#FFFFFF",
-      steelBlue: "#335C6E",
+      white: '#FFFFFF',
+      steelBlue: "#1E2761", // Midnight blue
+      main: "#408EC6", // Royal blue
+      red: "#7A2048", // burgundy red
       yellow: "#FABD33",
     },
     secondary: {
